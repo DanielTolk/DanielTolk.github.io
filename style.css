@@ -1,0 +1,234 @@
+@import url(reset.css);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ___ОФОРМЛЕНИЕ САЙТА___ */
+
+#wrapper {
+    width: 1300px;
+    height: 2000px;
+    margin: 0 auto;
+}
+
+#menu {
+    width: 1300px;
+    height: 700px;
+    background: url(images/menu.png) no-repeat center top;
+    margin-top: -50px;
+}
+
+#menu ul{
+    padding-left: 2%; 
+}
+
+#menu ul li {
+    float: left;
+    list-style-type: none;
+    color: #fff;
+    margin-right: 40px;
+    margin-top: 245px;
+}
+
+#menu ul li a{
+    color: #fff;
+    font: bold 13px Arial, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    text-decoration: underline;
+}
+
+#wave {
+    color: #fff;
+    font: bold 200px Britannic, sans-serif;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+#menu ul li span {
+    margin-left: 350px;
+    text-decoration: underline;
+    width: 20px;
+}
+
+button {
+    margin-left: 250px;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-top: -3px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #5D9CEC;
+    color: #fff;
+    font: bold 13px Arial, Verdana, sans-serif;
+}
+
+button:hover {
+    background: #fff;
+    color: #5D9CEC;
+}
+
+.search {
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 950px
+}
+
+#p1 {
+    text-align: center;
+    margin-top: 550px;
+    font: 30px Arial, sans-serif;
+    color: #555555;
+}
+
+#p2 {
+    text-align: justify;
+    font: 20px Arial, sans-serif;
+    color: #555555;
+    margin-top: 40px;
+    margin-left: 600px;
+}
+#h1 {
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 500px;
+    font: 30px Arial, sans-serif;
+}
+
+#fox {
+    margin-top: -250px;
+    margin-left: 100px;
+}
+
+#p3 {
+    text-align: justify;
+    font: 20px Arial, sans-serif;
+    color: #555555;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#h2 {
+    text-align: center;
+    margin-top: 300px;
+    margin-left:-500px;
+    font: 30px Arial, sans-serif; 
+}
+
+#tree {
+    margin-top: -400px;
+    margin-left: 900px;
+}
+
+#p4 {
+    text-align: justify;
+    font: 20px Arial, sans-serif;
+    color: #555555;
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+#h3 {
+    text-align: center;
+    font: 30px Arial, sans-serif;
+    margin-top: 300px;
+    margin-left: 500px;
+}
+
+#horse {
+    margin-top: -300px;
+    margin-left: 100px;
+}
+
+#p5 {
+    text-align: justify;
+    font: 20px Arial, sans-serif;
+    color: #555555;
+    margin-left: 650px;
+    margin-top: 30px;
+}
+
+#h4 {
+    text-align: center;
+    font: 25px Arial, sans-serif;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+#shell {
+    margin-top: -175px;
+    margin-left: 250px;
+}
+
+.divider {
+    width: 1300px;
+    height: 250px;
+    background: url(images/back1.png);
+    margin-top: -2500px;
+}
+
+.divider2 {
+    width: 1300px;
+    height: 300px;
+    background: url(images/back2.png);
+    margin-top: 2030px;
+}
+
+.footer {
+    margin-top: -35px;
+    text-align: center;
+    font: 15px Arial, Verdana, sans-serif;
+    color: #444444;
+    float: inherit;
+    word-spacing: 20px;
+}
